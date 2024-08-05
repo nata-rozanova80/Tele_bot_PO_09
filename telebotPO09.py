@@ -5,7 +5,7 @@ import time
 import threading
 import os
 
-token = "7391192822:AAGVa_3xR3BZ7DmRATVHoCWYVZjXwuqUesg"
+token = "token"
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
