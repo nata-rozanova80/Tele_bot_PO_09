@@ -5,7 +5,6 @@ import threading
 import random
 
 bot = telebot.TeleBot('7162191296:AAG1xbvrkpP0Vd_OaMfOuwNkYqQSg5g6qiA')
-
 @bot.message_handler(commands=['start'])
 def start_message(message):
     bot.reply_to(message, 'Привет! Я чат бот, который будет напоминать тебе пить водичку!')
